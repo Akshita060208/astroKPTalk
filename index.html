@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astrologer Vishal Sharma | Guidance for Life</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav">
+        <a class="brand" href="#home">🔮 Vishal Jyotish Kendra</a>
+        <div class="nav-links">
+          <a href="#achievements">Achievements</a>
+          <a href="#services">Services</a>
+          <a href="#appointment">Book Appointment</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">Trusted Astrologer & Spiritual Consultant</p>
+        <h1>Get Personal Guidance for Love, Career, Marriage & Peace</h1>
+        <p>
+          18+ years of practical astrology experience helping people solve life
+          challenges through Vedic astrology, palm reading, and vastu insight.
+        </p>
+        <a class="cta" href="#appointment">Book Your Session</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="achievements" class="section achievements">
+        <h2>Achievements</h2>
+        <div class="achievement-grid">
+          <article class="card">
+            <h3>National Astrology Award 2022</h3>
+            <p>
+              Recognized for accurate predictions and practical spiritual
+              remedies by the Indian Astro Federation.
+            </p>
+          </article>
+          <article class="card">
+            <h3>25,000+ Consultations</h3>
+            <p>
+              Successfully guided thousands of clients across India and abroad
+              for marriage, business, and family issues.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Featured Speaker</h3>
+            <p>
+              Invited as a guest astrologer on regional TV and spiritual podcast
+              channels for astrology-based life guidance.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <h2>Services Offered</h2>
+        <p class="section-intro">
+          Choose the service you need and mention it while booking your
+          appointment.
+        </p>
+
+        <div class="services-grid" aria-label="Astrology services list">
+          <article class="service-card">
+            <h3>🖐️ Hand Reading</h3>
+            <p>
+              Understand personality, strengths, and future possibilities
+              through detailed palm line analysis.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>📜 Kundli Making</h3>
+            <p>
+              Accurate birth-chart preparation and analysis for career, finance,
+              marriage, and health-related decisions.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>❤️ Relationship Problems</h3>
+            <p>
+              Remedies and guidance for love marriage, compatibility,
+              misunderstandings, and emotional balance.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>🏠 Vastu Consultation</h3>
+            <p>
+              Home and office vastu corrections to improve positivity,
+              prosperity, peace, and overall life progress.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="appointment" class="section appointment">
+        <h2>Book an Appointment Session</h2>
+        <p>
+          Share your problem and phone number. We will contact you to confirm a
+          suitable consultation slot.
+        </p>
+
+        <form class="booking-form" id="bookingForm">
+          <label>
+            Full Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+          <label>
+            Phone Number
+            <input
+              type="tel"
+              name="phone"
+              placeholder="10-digit mobile number"
+              pattern="[0-9]{10}"
+              required
+            />
+          </label>
+
+          <label>
+            Select Problem Type
+            <select name="problem" required>
+              <option value="">Choose one</option>
+              <option>Hand Reading</option>
+              <option>Kundli Making</option>
+              <option>Relationship Problem</option>
+              <option>Vastu Consultation</option>
+              <option>Other Personal Guidance</option>
+            </select>
+          </label>
+
+          <label>
+            Brief Details
+            <textarea
+              name="details"
+              rows="4"
+              placeholder="Write your concern in short"
+              required
+            ></textarea>
+          </label>
+
+          <button type="submit">Request Appointment</button>
+          <p id="formMessage" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer section">
+      <h2>Contact & Quick Links</h2>
+      <p>
+        📧 Email:
+        <a href="mailto:vishaljyotish@example.com">vishaljyotish@example.com</a>
+      </p>
+      <p>📞 Phone: <a href="tel:+919999999999">+91 99999 99999</a></p>
+      <div class="social-links">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="https://youtube.com" target="_blank" rel="noreferrer">YouTube</a>
+        <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+      <p class="copyright">© 2026 Vishal Jyotish Kendra. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
